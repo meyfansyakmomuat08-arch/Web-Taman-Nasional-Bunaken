@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Bunaken Paradise Resort</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="brand">Bunaken Paradise Resort</div>
+        <nav class="site-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="registration.html" class="active">Registration</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container-reg">
+        <h2>Formulir Pendaftaran & Reservasi Kamar</h2>
+        <p style="margin-bottom: 1.5rem; color: #666;">Isi formulir berikut untuk mendaftar dan memesan tanggal kunjungan Anda.</p>
+
+        <div class="reg-layout">
+            <div>
+                <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80" alt="Gambar Lobby Resort" class="img-fluid" style="max-height: 400px;">
+            </div>
+
+            <form action="#" method="get">
+                <div class="form-grid">
+                    <div class="form-group full-width">
+                        <label for="nama">Nama Lengkap</label>
+                        <input type="text" id="nama" name="nama" required placeholder="Masukkan nama Anda">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="email@domain.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telepon">No. WhatsApp</label>
+                        <input type="tel" id="telepon" name="telepon" required placeholder="08123456789">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tipe_kamar">Tipe Kamar</label>
+                        <select id="tipe_kamar" name="tipe_kamar">
+                            <option value="Ocean View Villa">Ocean View Villa</option>
+                            <option value="Executive Suite">Executive Suite</option>
+                            <option value="Garden Bungalow">Garden Bungalow</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tgl_checkin">Check-in</label>
+                        <input type="date" id="tgl_checkin" name="tgl_checkin" required>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="catatan">Catatan / Permintaan Khusus</label>
+                        <textarea id="catatan" name="catatan" rows="3" placeholder="Contoh: Minta kamar di lantai dasar..."></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <button type="submit" class="btn-submit">Kirim Reservasi</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Bunaken Paradise Resort. All rights reserved.</p>
+    </footer>
+</body>
+</html>

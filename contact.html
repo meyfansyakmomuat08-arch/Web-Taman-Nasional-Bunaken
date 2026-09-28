@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Struktur - Bunaken Paradise Resort</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="brand">Bunaken Paradise Resort</div>
+        <nav class="site-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container-contact">
+        <!-- Section Struktur Organisasi Pengelola Resort -->
+        <section class="section-structure">
+            <h2>Struktur Organisasi Manajemen Resort</h2>
+            <p>Susunan pengelola operasional Bunaken Paradise Resort:</p>
+            
+            <div class="org-tree">
+                <div class="org-node">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=200&q=80" alt="Foto General Manager">
+                    <h4>General Manager</h4>
+                    <p>Bpk. Hendra Wijaya</p>
+                </div>
+                <div class="org-node">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80" alt="Foto Kepala Operasional">
+                    <h4>Kepala Operasional</h4>
+                    <p>Ibu Ratna Sari</p>
+                </div>
+                <div class="org-node">
+                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=200&q=80" alt="Foto Kepala Pelayanan">
+                    <h4>Kepala Pelayanan</h4>
+                    <p>Bpk. Daniel Santoso</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Kontak & Form Pesan -->
+        <div class="contact-layout">
+            <div>
+                <h3>Informasi Kontak</h3>
+                <p style="margin-top: 1rem;"><strong>Alamat:</strong> Jl. Pantai Bunaken No. 12, Teluk Manado, Sulawesi Utara</p>
+                <p><strong>Telepon:</strong> 0812-4834-0906</p>
+                <p><strong>Email:</strong> info@bunakenparadise.example</p>
+                <p style="margin-bottom: 1rem;"><strong>Jam Operasional:</strong> 24 Jam Setiap Hari</p>
+                
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80" alt="Pemandangan Pantai" class="img-fluid" style="max-height: 200px;">
+            </div>
+
+            <div>
+                <h3>Kirim Pesan</h3>
+                <form action="#" method="get" style="margin-top: 1rem;">
+                    <div class="form-group">
+                        <label for="nama_pesan">Nama Anda</label>
+                        <input type="text" id="nama_pesan" name="nama" required placeholder="Masukkan nama">
+                    </div>
+                    <div class="form-group">
+                        <label for="email_pesan">Email Anda</label>
+                        <input type="email" id="email_pesan" name="email" required placeholder="email@domain.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="pesan">Pesan / Pertanyaan</label>
+                        <textarea id="pesan" name="pesan" rows="4" required placeholder="Tuliskan pertanyaan Anda..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Bunaken Paradise Resort. All rights reserved.</p>
+    </footer>
+</body>
+</html>
